@@ -1,8 +1,8 @@
 ---
 name: Bug Report
 about: Report a bug or unexpected behaviour in UI Patterns
-title: "[Bug]: "
-labels: ["bug", "needs-triage"]
+title: '[Bug]: '
+labels: ['bug', 'needs-triage']
 assignees: []
 ---
 
@@ -31,13 +31,13 @@ assignees: []
 
 ## Environment
 
-| Property         | Value                |
-|------------------|----------------------|
-| OS               | e.g. macOS 14, Win 11 |
-| Node version     | e.g. 20.x            |
-| pnpm version     | e.g. 9.x             |
-| Browser          | e.g. Chrome 125      |
-| ui-patterns ver  | e.g. 0.1.0           |
+| Property        | Value                 |
+| --------------- | --------------------- |
+| OS              | e.g. macOS 14, Win 11 |
+| Node version    | e.g. 20.x             |
+| pnpm version    | e.g. 9.x              |
+| Browser         | e.g. Chrome 125       |
+| ui-patterns ver | e.g. 0.1.0            |
 
 ## Additional Context
 

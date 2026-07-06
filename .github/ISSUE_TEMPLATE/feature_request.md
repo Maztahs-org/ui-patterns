@@ -1,8 +1,8 @@
 ---
 name: Feature Request
 about: Suggest a new feature or improvement for UI Patterns
-title: "[Feature]: "
-labels: ["enhancement", "needs-triage"]
+title: '[Feature]: '
+labels: ['enhancement', 'needs-triage']
 assignees: []
 ---
 

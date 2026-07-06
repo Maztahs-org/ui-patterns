@@ -65,16 +65,16 @@ git merge upstream/main
 
 ### Available commands
 
-| Command             | Description                               |
-| ------------------- | ----------------------------------------- |
-| `pnpm dev`          | Start the Vite development server         |
-| `pnpm build`        | Type-check and build for production       |
-| `pnpm preview`      | Serve the production build locally        |
-| `pnpm lint`         | Run ESLint                                |
-| `pnpm lint:fix`     | Run ESLint with auto-fix                  |
-| `pnpm format`       | Format all files with Prettier            |
-| `pnpm format:check` | Check formatting without writing changes  |
-| `pnpm type-check`   | Run TypeScript compiler without emitting  |
+| Command             | Description                              |
+| ------------------- | ---------------------------------------- |
+| `pnpm dev`          | Start the Vite development server        |
+| `pnpm build`        | Type-check and build for production      |
+| `pnpm preview`      | Serve the production build locally       |
+| `pnpm lint`         | Run ESLint                               |
+| `pnpm lint:fix`     | Run ESLint with auto-fix                 |
+| `pnpm format`       | Format all files with Prettier           |
+| `pnpm format:check` | Check formatting without writing changes |
+| `pnpm type-check`   | Run TypeScript compiler without emitting |
 
 ---
 
@@ -82,17 +82,17 @@ git merge upstream/main
 
 Create all branches from an up-to-date `main`. Use the following prefixes:
 
-| Prefix       | Purpose                                            | Example                         |
-| ------------ | -------------------------------------------------- | ------------------------------- |
-| `feat/`      | A new feature or component                         | `feat/button-component`         |
-| `fix/`       | A bug fix                                          | `fix/modal-focus-trap`          |
-| `docs/`      | Documentation-only changes                         | `docs/update-contributing`      |
-| `refactor/`  | Code refactoring without behaviour change          | `refactor/hooks-cleanup`        |
-| `test/`      | Adding or updating tests                           | `test/button-unit-tests`        |
-| `chore/`     | Tooling, config, or dependency updates             | `chore/update-eslint`           |
-| `style/`     | Formatting or whitespace — no logic changes        | `style/consistent-spacing`      |
-| `ci/`        | Changes to GitHub Actions or CI configuration      | `ci/add-node-22-matrix`         |
-| `perf/`      | Performance improvements                           | `perf/reduce-bundle-size`       |
+| Prefix      | Purpose                                       | Example                    |
+| ----------- | --------------------------------------------- | -------------------------- |
+| `feat/`     | A new feature or component                    | `feat/button-component`    |
+| `fix/`      | A bug fix                                     | `fix/modal-focus-trap`     |
+| `docs/`     | Documentation-only changes                    | `docs/update-contributing` |
+| `refactor/` | Code refactoring without behaviour change     | `refactor/hooks-cleanup`   |
+| `test/`     | Adding or updating tests                      | `test/button-unit-tests`   |
+| `chore/`    | Tooling, config, or dependency updates        | `chore/update-eslint`      |
+| `style/`    | Formatting or whitespace — no logic changes   | `style/consistent-spacing` |
+| `ci/`       | Changes to GitHub Actions or CI configuration | `ci/add-node-22-matrix`    |
+| `perf/`     | Performance improvements                      | `perf/reduce-bundle-size`  |
 
 Branch names must be lowercase and use hyphens as word separators.
 
@@ -120,18 +120,18 @@ All commits must follow the [Conventional Commits](https://www.conventionalcommi
 
 ### Types
 
-| Type       | When to use                                              |
-| ---------- | -------------------------------------------------------- |
-| `feat`     | A new feature or component                               |
-| `fix`      | A bug fix                                                |
-| `docs`     | Documentation-only changes                               |
-| `style`    | Formatting, whitespace — no logic changes                |
-| `refactor` | Code change that is neither a fix nor a feature          |
-| `perf`     | A change that improves performance                       |
-| `test`     | Adding or correcting tests                               |
-| `chore`    | Tooling, config, build process, or dependency updates    |
-| `ci`       | Changes to CI/CD configuration                           |
-| `revert`   | Reverts a previous commit                                |
+| Type       | When to use                                           |
+| ---------- | ----------------------------------------------------- |
+| `feat`     | A new feature or component                            |
+| `fix`      | A bug fix                                             |
+| `docs`     | Documentation-only changes                            |
+| `style`    | Formatting, whitespace — no logic changes             |
+| `refactor` | Code change that is neither a fix nor a feature       |
+| `perf`     | A change that improves performance                    |
+| `test`     | Adding or correcting tests                            |
+| `chore`    | Tooling, config, build process, or dependency updates |
+| `ci`       | Changes to CI/CD configuration                        |
+| `revert`   | Reverts a previous commit                             |
 
 ### Examples
 
@@ -243,11 +243,11 @@ Install the ESLint and Prettier extensions for your editor and enable format-on-
 
 Search existing issues before opening a new one to avoid duplicates. Use the appropriate template:
 
-| Template              | Use for                                               |
-| --------------------- | ----------------------------------------------------- |
-| **Bug Report**        | Something broken or behaving unexpectedly             |
-| **Feature Request**   | A new capability or enhancement                       |
-| **Component Request** | A new UI component you would like to see built        |
+| Template              | Use for                                        |
+| --------------------- | ---------------------------------------------- |
+| **Bug Report**        | Something broken or behaving unexpectedly      |
+| **Feature Request**   | A new capability or enhancement                |
+| **Component Request** | A new UI component you would like to see built |
 
 ### Good bug reports include
 

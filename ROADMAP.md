@@ -50,24 +50,29 @@ Before any components ship, a shared token layer will be established as CSS cust
 ### Target components
 
 **Actions**
+
 - [ ] `Button` — variants (primary, secondary, ghost, destructive), sizes (sm / md / lg), loading state, icon slots
 - [ ] `IconButton` — accessible icon-only button with required `aria-label`
 
 **Display**
+
 - [ ] `Badge` — semantic colour variants with optional dot indicator
 - [ ] `Avatar` — image with fallback to initials, multiple sizes
 - [ ] `Tag` — dismissible label for categories and filters
 
 **Typography**
+
 - [ ] `Heading` — semantic h1–h6 with style decoupled from level
 - [ ] `Text` — body copy with size and weight variants
 - [ ] `Link` — styled anchor with internal/external detection and icon support
 
 **Layout primitives**
+
 - [ ] `Stack` — flexbox row and column primitive with gap control
 - [ ] `Divider` — horizontal and vertical separator with optional label
 
 **Feedback**
+
 - [ ] `Spinner` — accessible loading indicator with ARIA live region
 - [ ] `Skeleton` — shimmer placeholder for loading states
 

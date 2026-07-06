@@ -1,8 +1,8 @@
 ---
 name: Component Request
 about: Request a new UI component to be added to UI Patterns
-title: "[Component]: "
-labels: ["component-request", "needs-triage"]
+title: '[Component]: '
+labels: ['component-request', 'needs-triage']
 assignees: []
 ---
 
@@ -13,6 +13,7 @@ assignees: []
 ## Category
 
 <!-- Where does this component belong? -->
+
 - [ ] components/ — General-purpose UI elements
 - [ ] layouts/ — Page and section layouts
 - [ ] forms/ — Form inputs and controls
@@ -29,11 +30,7 @@ assignees: []
 
 ```tsx
 // Example usage you would like to see
-<ComponentName
-  prop1="value"
-  prop2={true}
-  onAction={() => {}}
-/>
+<ComponentName prop1="value" prop2={true} onAction={() => {}} />
 ```
 
 ## Accessibility Requirements

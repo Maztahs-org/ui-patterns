@@ -22,6 +22,7 @@ Initial release. This version establishes the full project foundation: tooling, 
 ### Added
 
 **Project scaffold**
+
 - Repository structure organised by UI concern (`components/`, `layouts/`, `forms/`, `feedback/`, `navigation/`, `overlays/`, `data-display/`, `hooks/`, `lib/`, `styles/`, `types/`, `utils/`)
 - `index.html` entry point
 - `src/main.tsx` — React 19 `createRoot` entry
@@ -31,6 +32,7 @@ Initial release. This version establishes the full project foundation: tooling, 
 - Placeholder directories: `assets/`, `docs/`, `examples/`, `packages/`
 
 **Tooling and configuration**
+
 - React 19 + TypeScript 5 + Vite 6
 - Tailwind CSS v4 via `@tailwindcss/vite` plugin — no `tailwind.config.js` required
 - ESLint 9 with `typescript-eslint`, `eslint-plugin-react-hooks`, `eslint-plugin-react-refresh`, and `eslint-config-prettier`
@@ -42,6 +44,7 @@ Initial release. This version establishes the full project foundation: tooling, 
 - `tsconfig.json`, `tsconfig.app.json`, `tsconfig.node.json` — composite project references with strict mode
 
 **GitHub**
+
 - Issue template: Bug Report (`.github/ISSUE_TEMPLATE/bug_report.md`)
 - Issue template: Feature Request (`.github/ISSUE_TEMPLATE/feature_request.md`)
 - Issue template: Component Request (`.github/ISSUE_TEMPLATE/component_request.md`)
@@ -50,6 +53,7 @@ Initial release. This version establishes the full project foundation: tooling, 
 - Lint workflow — ESLint and Prettier check on every push and PR (`.github/workflows/lint.yml`)
 
 **Documentation**
+
 - `README.md` — overview, goals, features, tech stack, folder structure, installation, scripts, example usage, architecture, roadmap, contributing guide, license
 - `CONTRIBUTING.md` — development setup, branch naming, Conventional Commits, coding standards, formatting and linting, PR process, issue reporting guidelines
 - `ROADMAP.md` — four-phase plan: Foundation, Primitive Components, Advanced Patterns, Documentation Website

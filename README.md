@@ -17,7 +17,7 @@ Built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**, UI Pattern
 
 </p>
 
-**Documentation** *(Coming Soon)* • **Storybook** *(Coming Soon)* • **Component Playground** *(Coming Soon)*
+**Documentation** _(Coming Soon)_ • **Storybook** _(Coming Soon)_ • **Component Playground** _(Coming Soon)_
 
 </div>
 
@@ -143,15 +143,16 @@ The goal is to help developers spend less time fighting UI infrastructure and mo
 
 # Technology Stack
 
-| Technology | Purpose |
-|------------|---------|
-| React 19 | Component architecture |
-| TypeScript | Type safety |
-| Vite | Build tooling |
-| Tailwind CSS v4 | Utility-first styling |
-| ESLint | Code quality |
-| Prettier | Consistent formatting |
-| GitHub Actions | Continuous Integration |
+| Technology      | Purpose                |
+| --------------- | ---------------------- |
+| React 19        | Component architecture |
+| TypeScript      | Type safety            |
+| Vite            | Build tooling          |
+| Tailwind CSS v4 | Utility-first styling  |
+| ESLint          | Code quality           |
+| Prettier        | Consistent formatting  |
+| GitHub Actions  | Continuous Integration |
+
 ---
 
 # Getting Started
@@ -162,11 +163,11 @@ Get UI Patterns running locally in just a few steps.
 
 Before you begin, ensure you have the following installed:
 
-| Requirement | Version |
-|-------------|---------|
-| Node.js | 20.x or later |
-| pnpm | Latest |
-| Git | Latest |
+| Requirement | Version       |
+| ----------- | ------------- |
+| Node.js     | 20.x or later |
+| pnpm        | Latest        |
+| Git         | Latest        |
 
 Verify your installation:
 
@@ -301,14 +302,14 @@ ui-patterns/
 
 # Available Scripts
 
-| Command | Description |
-|---------|-------------|
-| `pnpm dev` | Starts the development server |
-| `pnpm build` | Builds the application for production |
-| `pnpm preview` | Serves the production build locally |
-| `pnpm lint` | Runs ESLint |
-| `pnpm format` | Formats the project |
-| `pnpm typecheck` | Runs TypeScript checks |
+| Command          | Description                           |
+| ---------------- | ------------------------------------- |
+| `pnpm dev`       | Starts the development server         |
+| `pnpm build`     | Builds the application for production |
+| `pnpm preview`   | Serves the production build locally   |
+| `pnpm lint`      | Runs ESLint                           |
+| `pnpm format`    | Formats the project                   |
+| `pnpm typecheck` | Runs TypeScript checks                |
 
 ---
 
@@ -380,6 +381,7 @@ MAJOR.MINOR.PATCH
 This versioning strategy helps developers understand the impact of updates and adopt new releases with confidence.
 
 ---
+
 # Component Roadmap
 
 UI Patterns is being developed incrementally, with every component designed, documented, reviewed, and tested before becoming part of the library.
@@ -392,14 +394,14 @@ The roadmap below represents the current development plan. Completed components 
 
 These components establish the core building blocks of the design system.
 
-| Component | Status |
-|-----------|--------|
-| Button | ⏳ Planned |
+| Component   | Status     |
+| ----------- | ---------- |
+| Button      | ⏳ Planned |
 | Icon Button | ⏳ Planned |
-| Typography | ⏳ Planned |
-| Divider | ⏳ Planned |
-| Separator | ⏳ Planned |
-| Spinner | ⏳ Planned |
+| Typography  | ⏳ Planned |
+| Divider     | ⏳ Planned |
+| Separator   | ⏳ Planned |
+| Spinner     | ⏳ Planned |
 
 ---
 
@@ -407,16 +409,16 @@ These components establish the core building blocks of the design system.
 
 Reliable and accessible form controls for modern applications.
 
-| Component | Status |
-|-----------|--------|
-| Input | ⏳ Planned |
-| Textarea | ⏳ Planned |
-| Checkbox | ⏳ Planned |
+| Component   | Status     |
+| ----------- | ---------- |
+| Input       | ⏳ Planned |
+| Textarea    | ⏳ Planned |
+| Checkbox    | ⏳ Planned |
 | Radio Group | ⏳ Planned |
-| Switch | ⏳ Planned |
-| Select | ⏳ Planned |
-| Combobox | ⏳ Planned |
-| Slider | ⏳ Planned |
+| Switch      | ⏳ Planned |
+| Select      | ⏳ Planned |
+| Combobox    | ⏳ Planned |
+| Slider      | ⏳ Planned |
 | Date Picker | ⏳ Planned |
 | File Upload | ⏳ Planned |
 
@@ -426,13 +428,13 @@ Reliable and accessible form controls for modern applications.
 
 Components that communicate application state and user feedback.
 
-| Component | Status |
-|-----------|--------|
-| Alert | ⏳ Planned |
-| Badge | ⏳ Planned |
-| Toast | ⏳ Planned |
-| Progress | ⏳ Planned |
-| Skeleton | ⏳ Planned |
+| Component         | Status     |
+| ----------------- | ---------- |
+| Alert             | ⏳ Planned |
+| Badge             | ⏳ Planned |
+| Toast             | ⏳ Planned |
+| Progress          | ⏳ Planned |
+| Skeleton          | ⏳ Planned |
 | Loading Indicator | ⏳ Planned |
 
 ---
@@ -441,14 +443,14 @@ Components that communicate application state and user feedback.
 
 Components for navigating complex interfaces.
 
-| Component | Status |
-|-----------|--------|
-| Breadcrumb | ⏳ Planned |
-| Pagination | ⏳ Planned |
-| Tabs | ⏳ Planned |
+| Component       | Status     |
+| --------------- | ---------- |
+| Breadcrumb      | ⏳ Planned |
+| Pagination      | ⏳ Planned |
+| Tabs            | ⏳ Planned |
 | Navigation Menu | ⏳ Planned |
-| Sidebar | ⏳ Planned |
-| Navbar | ⏳ Planned |
+| Sidebar         | ⏳ Planned |
+| Navbar          | ⏳ Planned |
 
 ---
 
@@ -456,14 +458,14 @@ Components for navigating complex interfaces.
 
 Interactive components layered above application content.
 
-| Component | Status |
-|-----------|--------|
-| Modal | ⏳ Planned |
-| Drawer | ⏳ Planned |
-| Popover | ⏳ Planned |
-| Tooltip | ⏳ Planned |
+| Component     | Status     |
+| ------------- | ---------- |
+| Modal         | ⏳ Planned |
+| Drawer        | ⏳ Planned |
+| Popover       | ⏳ Planned |
+| Tooltip       | ⏳ Planned |
 | Dropdown Menu | ⏳ Planned |
-| Context Menu | ⏳ Planned |
+| Context Menu  | ⏳ Planned |
 
 ---
 
@@ -471,14 +473,14 @@ Interactive components layered above application content.
 
 Components for presenting structured information.
 
-| Component | Status |
-|-----------|--------|
-| Card | ⏳ Planned |
-| Avatar | ⏳ Planned |
-| Table | ⏳ Planned |
-| Accordion | ⏳ Planned |
+| Component   | Status     |
+| ----------- | ---------- |
+| Card        | ⏳ Planned |
+| Avatar      | ⏳ Planned |
+| Table       | ⏳ Planned |
+| Accordion   | ⏳ Planned |
 | Empty State | ⏳ Planned |
-| Timeline | ⏳ Planned |
+| Timeline    | ⏳ Planned |
 
 ---
 
@@ -753,6 +755,7 @@ As the project grows, additional maintainers and reviewers may be added to help 
 Interested in becoming a long-term contributor? We'd love to have you involved.
 
 ---
+
 ---
 
 # Roadmap
